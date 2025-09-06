@@ -20,4 +20,22 @@ int main() {
     cout << "Total Marks: " << total << endl;
     cout << "Average Marks: " << average << endl;
     
+     cout << "Grade: ";
+    if(average >= 90) {
+        cout << "A+ (Excellent!)";
+    }
+    else if(average >= 80) {
+        cout << "A (Very Good)";
+    }
+    else if(average >= 70) {
+        cout << "B (Good)";
+    }
+    else if(average >= 60) {
+        cout << "C (Fair)";
+    }
+    else {
+        cout << "F (Fail)";
+    }
+    
+    return 0;
 }
