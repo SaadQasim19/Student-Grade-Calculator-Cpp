@@ -11,7 +11,13 @@ int main() {
     for(int i = 1; i <= subjects; i++) {
         cout << "Enter marks for Subject " << i << ": ";
         cin >> marks;
-        total += marks; }
-    
+        total += marks; 
+    }
+
+     average = total / subjects;
+   
+    cout << "\n--- Results ---" << endl;
+    cout << "Total Marks: " << total << endl;
+    cout << "Average Marks: " << average << endl;
     
 }
